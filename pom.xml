@@ -18,8 +18,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>8</source> <!-- Changed from 11 to 8 as it's the last version which supports x86 systems -->
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
